@@ -7,7 +7,7 @@
   "scripts": {
     "migrate:production": "tsx scripts/migrate-production.ts && pnpm db:migrate",
     "dev": "agent-native dev",
-    "build": "agent-native build",
+    "build": "node scripts/build.mjs",
     "start": "agent-native start",
     "typecheck": "agent-native typecheck",
     "action": "agent-native action",
